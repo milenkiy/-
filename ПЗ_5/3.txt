@@ -18,7 +18,7 @@ int main()
 
 	for (int x = a; x <= b; x += h) {
 		if (x + 5 != 0) {
-			y = 8 + (sqrt(x - 7)) / (x + 5);
+			y = pow(5 * (x), 3) + sqrt(-x + 6);
 			cout << "-----------------------:\n";
 			cout << ":   X :        Y       :\n";
 			cout << "-----------------------:\n";
@@ -30,5 +30,5 @@ int main()
 		}
 	}
 	return 0;
-	
+
 }
