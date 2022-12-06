@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 0;
+    cout << "Enter a numeric group code: ";
+    cin >> a;
+    switch (a) {
+    case(21):
+        cout << "ISD-21" << endl;
+        cout << "32" << endl;
+        break;
+    case(22):
+        cout << "ISD-22" << endl;
+        cout << "40" << endl;
+        break;
+    case(23):
+        cout << "ISD-23" << endl;
+        cout << "15" << endl;
+        break;
+    case(4):
+        cout << "ISD-24" << endl;
+        cout << "24" << endl;
+        break;
+    default:
+        cout << "Enter correct group code:" << endl;
+    }
+    return 0;
+}
